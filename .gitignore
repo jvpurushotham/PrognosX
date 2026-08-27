@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data (raw & processed should not be committed) ---
+data/raw/CMAPSS/*
+!data/raw/CMAPSS/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# --- Models ---
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.pt
+models/**/*.h5
+!models/**/.gitkeep
+
+# --- Logs ---
+logs/*.log
+!logs/.gitkeep
+
+# --- Reports (generated artifacts) ---
+reports/figures/*
+!reports/figures/.gitkeep
+reports/metrics/*
+!reports/metrics/.gitkeep
+
+# --- Env / secrets ---
+.env
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/

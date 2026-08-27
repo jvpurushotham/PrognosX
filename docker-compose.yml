@@ -1,0 +1,5 @@
+# ==========================================================
+# PrognosX — docker-compose.yml
+# STATUS: Placeholder (implemented in Phase 13 — Containerization)
+# ==========================================================
+# TODO (Phase 13): define the API service, ports, and volumes.

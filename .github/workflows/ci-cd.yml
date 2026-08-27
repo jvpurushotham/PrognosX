@@ -1,0 +1,14 @@
+# ==========================================================
+# PrognosX — CI/CD Workflow
+# STATUS: Placeholder (implemented in Phase 14 — CI/CD)
+# ==========================================================
+# TODO (Phase 14): install deps -> run tests -> lint ->
+# build Docker image -> integration tests -> publish -> deploy
+name: ci-cd (placeholder)
+on:
+  workflow_dispatch: {}
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI/CD pipeline will be implemented in Phase 14"
